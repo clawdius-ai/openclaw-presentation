@@ -6,21 +6,23 @@
     <title>OpenClaw — AI Agents in Production</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-primary: #0a0a0a;
-            --bg-secondary: #111111;
-            --bg-tertiary: #1a1a1a;
-            --accent: #ff4444;
-            --accent-secondary: #ff6b6b;
-            --accent-glow: rgba(255, 68, 68, 0.3);
-            --text-primary: #ffffff;
-            --text-secondary: #888888;
-            --text-muted: #555555;
-            --border: #222222;
-            --gradient-start: #ff4444;
-            --gradient-end: #ff8866;
+            /* Akera Brand System */
+            --bg-primary: hsl(0, 0%, 4%);
+            --bg-secondary: hsl(0, 0%, 7%);
+            --bg-tertiary: hsl(0, 0%, 10%);
+            --accent: hsl(4, 100%, 60%);
+            --accent-secondary: hsl(4, 90%, 65%);
+            --accent-glow: hsla(4, 100%, 60%, 0.3);
+            --text-primary: hsl(0, 0%, 100%);
+            --text-secondary: hsl(15, 5%, 65%);
+            --text-muted: hsl(15, 5%, 55%);
+            --border: hsl(15, 8%, 22%);
+            --gradient-start: hsl(4, 100%, 60%);
+            --gradient-end: hsl(20, 100%, 60%);
             --green: #22c55e;
             --yellow: #eab308;
             --blue: #3b82f6;
@@ -38,7 +40,7 @@
         }
 
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-family: 'Satoshi', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
             background: var(--bg-primary);
             color: var(--text-primary);
             line-height: 1.6;
