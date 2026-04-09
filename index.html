@@ -3,29 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenClaw — AI Agents in Production</title>
+    <title>Agentic Beaver — AI Agents in Production</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
     <style>
         :root {
-            /* Akera Brand System */
+            /* Agentic Beaver Brand System */
             --bg-primary: hsl(0, 0%, 4%);
             --bg-secondary: hsl(0, 0%, 7%);
             --bg-tertiary: hsl(0, 0%, 10%);
-            --accent: hsl(4, 100%, 60%);
-            --accent-secondary: hsl(4, 90%, 65%);
-            --accent-glow: hsla(4, 100%, 60%, 0.3);
+            --accent: hsl(25, 95%, 55%);
+            --accent-secondary: hsl(30, 90%, 60%);
+            --accent-glow: hsla(25, 95%, 55%, 0.3);
             --text-primary: hsl(0, 0%, 100%);
             --text-secondary: hsl(15, 5%, 65%);
             --text-muted: hsl(15, 5%, 55%);
             --border: hsl(15, 8%, 22%);
-            --gradient-start: hsl(4, 100%, 60%);
-            --gradient-end: hsl(20, 100%, 60%);
+            --gradient-start: hsl(25, 95%, 55%);
+            --gradient-end: hsl(40, 95%, 55%);
             --green: #22c55e;
             --yellow: #eab308;
             --blue: #3b82f6;
+
+            /* Typography */
+            --font-display: 'Instrument Serif', serif;
+            --font-body: 'Satoshi', sans-serif;
         }
 
         * {
@@ -40,7 +44,7 @@
         }
 
         body {
-            font-family: 'Satoshi', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-family: var(--font-body);
             background: var(--bg-primary);
             color: var(--text-primary);
             line-height: 1.6;
@@ -125,8 +129,10 @@
         }
 
         h1 {
+            font-family: var(--font-display);
+            font-style: italic;
             font-size: clamp(3rem, 8vw, 5rem);
-            font-weight: 800;
+            font-weight: 400;
             line-height: 1.1;
             margin-bottom: 1.5rem;
             background: linear-gradient(135deg, var(--text-primary), var(--text-secondary));
@@ -136,19 +142,23 @@
         }
 
         h2 {
+            font-family: var(--font-display);
+            font-style: italic;
             font-size: clamp(2rem, 5vw, 3.5rem);
-            font-weight: 700;
+            font-weight: 400;
             line-height: 1.2;
             margin-bottom: 1rem;
         }
 
         h3 {
+            font-family: var(--font-body);
             font-size: 1.5rem;
             font-weight: 600;
             margin-bottom: 0.75rem;
         }
 
         h4 {
+            font-family: var(--font-body);
             font-size: 1.125rem;
             font-weight: 600;
             margin-bottom: 0.5rem;
@@ -1118,8 +1128,8 @@
 
     <nav class="nav">
         <div class="logo">
-            <div class="logo-icon">🦞</div>
-            <span>OpenClaw</span>
+            <div class="logo-icon"><img src="beaver-logo.png" alt="Agentic Beaver" style="width:100%;height:100%;object-fit:cover;border-radius:6px;"></div>
+            <span>Agentic Beaver</span>
         </div>
         <div class="slide-counter">
             <span id="currentSlide">01</span> / <span id="totalSlides">12</span>
@@ -1134,7 +1144,7 @@
                 <span class="live-dot"></span>
                 Live Demo Session
             </div>
-            
+            <img src="beaver-logo.png" alt="Agentic Beaver" style="width: 120px; height: 120px; border-radius: 24px; margin-bottom: 1.5rem;">
             <h1>AI Agents<br>in Production</h1>
             <p class="subtitle">From chatbot to coworker. Real workflows, real automation, real results.</p>
             <div class="hero-cta">
@@ -1180,7 +1190,7 @@
     <section class="slide" id="slide-3">
         <div class="slide-content">
             <span class="eyebrow">The Solution</span>
-            <h2>OpenClaw: Your AI<br><span class="highlight">operating system</span></h2>
+            <h2>Agentic Beaver: Your AI<br><span class="highlight">operating system</span></h2>
             <p class="subtitle">A platform that gives Claude (or any LLM) a body — tools, memory, and agency.</p>
             
             <div class="pipeline">
@@ -1395,7 +1405,7 @@
         <div class="slide-content">
             <span class="eyebrow">The Stack</span>
             <h2>Tools that <span class="highlight">power</span> the pipeline</h2>
-            <p class="subtitle">APIs and integrations orchestrated by OpenClaw.</p>
+            <p class="subtitle">APIs and integrations orchestrated by Agentic Beaver.</p>
             
             <div class="tool-grid">
                 <div class="tool-card">
@@ -1663,18 +1673,18 @@ most programs we see: 15% finish rate..."</span></pre>
         <div class="slide-content">
             <span class="eyebrow">Architecture</span>
             <h2>How it all <span class="highlight">connects</span></h2>
-            <p class="subtitle">OpenClaw orchestrates skills, tools, and workflows.</p>
+            <p class="subtitle">Agentic Beaver orchestrates skills, tools, and workflows.</p>
             
             <div class="integration-flow" style="margin: 2rem 0;">
                 <div class="integration-node">Skool</div>
                 <span class="integration-arrow">→</span>
-                <div class="integration-node highlight">OpenClaw</div>
+                <div class="integration-node highlight">Agentic Beaver</div>
                 <span class="integration-arrow">→</span>
                 <div class="integration-node">FullEnrich</div>
                 <span class="integration-arrow">→</span>
                 <div class="integration-node">Attio</div>
                 <span class="integration-arrow">→</span>
-                <div class="integration-node highlight">OpenClaw</div>
+                <div class="integration-node highlight">Agentic Beaver</div>
                 <span class="integration-arrow">→</span>
                 <div class="integration-node">Lemlist</div>
             </div>
@@ -1987,7 +1997,7 @@ most programs we see: 15% finish rate..."</span></pre>
                 </div>
             </div>
             <div class="modal-tools">
-                <span class="tool-tag">OpenClaw</span>
+                <span class="tool-tag">Agentic Beaver</span>
                 <span class="tool-tag">n8n</span>
                 <span class="tool-tag">Full Automation</span>
             </div>
@@ -2047,7 +2057,7 @@ most programs we see: 15% finish rate..."</span></pre>
     <section class="slide cta-slide" id="slide-12">
         <div class="glow" style="bottom: 20%; right: 10%;"></div>
         <div class="slide-content">
-            
+            <img src="beaver-logo.png" alt="Agentic Beaver" style="width: 100px; height: 100px; border-radius: 20px; margin-bottom: 1.5rem;">
             <span class="eyebrow">Ready?</span>
             <h2>Build your own<br><span class="highlight">AI teammate</span></h2>
             <p class="subtitle">Open source. Self-hosted. Deploy in minutes.</p>
@@ -2059,9 +2069,9 @@ most programs we see: 15% finish rate..."</span></pre>
                     <span class="terminal-dot green"></span>
                 </div>
                 <div class="terminal-body" style="text-align: left;">
-                    <div class="terminal-line"><span class="terminal-prompt">$</span> npm install -g openclaw</div>
-                    <div class="terminal-line"><span class="terminal-prompt">$</span> openclaw init</div>
-                    <div class="terminal-line"><span class="terminal-prompt">$</span> openclaw start</div>
+                    <div class="terminal-line"><span class="terminal-prompt">$</span> npm install -g agentic-beaver</div>
+                    <div class="terminal-line"><span class="terminal-prompt">$</span> beaver init</div>
+                    <div class="terminal-line"><span class="terminal-prompt">$</span> beaver start</div>
                 </div>
             </div>
             
