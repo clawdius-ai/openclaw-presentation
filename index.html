@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agentic Beaver — AI Agents in Production</title>
+    <title>Agentic Beaver — Image, Content & What's New</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900&display=swap" rel="stylesheet">
@@ -1134,7 +1134,7 @@
             <span>Agentic Beaver</span>
         </div>
         <div class="slide-counter">
-            <span id="currentSlide">01</span> / <span id="totalSlides">12</span>
+            <span id="currentSlide">01</span> / <span id="totalSlides">05</span>
         </div>
     </nav>
 
@@ -1144,929 +1144,292 @@
         <div class="slide-content">
             <div class="live-tag">
                 <span class="live-dot"></span>
-                Live Demo Session
+                Beta Tester Demo · June 4, 2026
             </div>
             <img src="beaver-logo.png" alt="Agentic Beaver" style="width: 120px; height: 120px; border-radius: 24px; margin-bottom: 1.5rem;">
-            <h1>AI Agents<br>in Production</h1>
-            <p class="subtitle">From chatbot to coworker. Real workflows, real automation, real results.</p>
+            <h1>AI agents:<br>image, content,<br>and <span class="highlight">what's new</span>.</h1>
+            <p class="subtitle">Three things you can do tonight. Plus the platform updates that shipped last month.</p>
             <div class="hero-cta">
-                <button class="btn btn-primary" onclick="nextSlide()">See Use Cases →</button>
-                <button class="btn btn-secondary" onclick="goToSlide(11)">Live Demo</button>
+                <button class="btn btn-primary" onclick="nextSlide()">Start →</button>
+                <button class="btn btn-secondary" onclick="goToSlide(5)">What's New</button>
             </div>
         </div>
     </section>
 
-    <!-- Slide 2: The Problem -->
+    <!-- Slide 2: Image Generation -->
     <section class="slide" id="slide-2">
+        <div class="glow" style="top: 30%; right: 5%;"></div>
         <div class="slide-content">
-            <span class="eyebrow">The Problem</span>
-            <h2>ChatGPT is a calculator.<br>You need a <span class="highlight">coworker</span>.</h2>
-            <p class="subtitle">AI chatbots answer questions. But business needs someone who can:</p>
-            
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">📅</div>
-                    <h3>Schedule & Remember</h3>
-                    <p>Set reminders, check calendars, follow up automatically without being asked.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🔧</div>
-                    <h3>Use Your Tools</h3>
-                    <p>Connect to CRMs, email, Slack, GitHub — actually do work, not just talk about it.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🔄</div>
-                    <h3>Run Workflows</h3>
-                    <p>Execute multi-step processes: research → enrich → write → send → follow up.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🧠</div>
-                    <h3>Learn & Adapt</h3>
-                    <p>Remember context, preferences, and history across sessions. Actually know you.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+            <span class="eyebrow">Use Case 01</span>
+            <h2>Stop hiring designers<br>for every <span class="highlight">post</span>.</h2>
+            <p class="subtitle">GPT Image 1, inside your agent. Generate, iterate, ship — without leaving the chat.</p>
 
-    <!-- Slide 3: The Solution Overview -->
-    <section class="slide" id="slide-3">
-        <div class="slide-content">
-            <span class="eyebrow">The Solution</span>
-            <h2>Agentic Beaver: Your AI<br><span class="highlight">operating system</span></h2>
-            <p class="subtitle">A platform that gives Claude (or any LLM) a body — tools, memory, and agency.</p>
-            
-            <div class="pipeline">
-                <div class="pipeline-step">
-                    <div class="pipeline-icon">🔍</div>
-                    <div class="pipeline-title">SCRAPE</div>
-                    <div class="pipeline-desc">Skool, LinkedIn</div>
-                </div>
-                <div class="pipeline-step">
-                    <div class="pipeline-icon">📧</div>
-                    <div class="pipeline-title">ENRICH</div>
-                    <div class="pipeline-desc">Find emails</div>
-                </div>
-                <div class="pipeline-step">
-                    <div class="pipeline-icon">💾</div>
-                    <div class="pipeline-title">CRM</div>
-                    <div class="pipeline-desc">Add to Attio</div>
-                </div>
-                <div class="pipeline-step">
-                    <div class="pipeline-icon">🔬</div>
-                    <div class="pipeline-title">RESEARCH</div>
-                    <div class="pipeline-desc">Deep dive</div>
-                </div>
-                <div class="pipeline-step">
-                    <div class="pipeline-icon">✍️</div>
-                    <div class="pipeline-title">WRITE</div>
-                    <div class="pipeline-desc">Personalize</div>
-                </div>
-                <div class="pipeline-step">
-                    <div class="pipeline-icon">🚀</div>
-                    <div class="pipeline-title">SEND</div>
-                    <div class="pipeline-desc">Launch</div>
-                </div>
-            </div>
-
-            <div class="stats-grid" style="margin-top: 3rem;">
-                <div class="stat-card">
-                    <div class="stat-value">357</div>
-                    <div class="stat-label">Leads Scraped</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value">40%</div>
-                    <div class="stat-label">Email Hit Rate</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value">5min</div>
-                    <div class="stat-label">Per Lead Research</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value">133</div>
-                    <div class="stat-label">Leads in CRM</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Slide 4: Lead Generation Skills -->
-    <section class="slide" id="slide-4">
-        <div class="slide-content">
-            <span class="eyebrow">Phase 1</span>
-            <h2>Lead <span class="highlight">Generation</span></h2>
-            <p class="subtitle">Skills that find and qualify your targets.</p>
-            
-            <div class="two-col">
+            <div class="two-col" style="margin-top: 2rem;">
                 <div>
-                    <div class="skill-section">
-                        <div class="skill-card ready">
-                            <div class="skill-header">
-                                <span class="skill-name">🔍 scrape-skill</span>
-                                <span class="skill-status ready">✅ Ready</span>
-                            </div>
-                            <div class="skill-desc">Skool scraper working. Pulled 357 leads from Money category. Extracts community name, member count, owner info, pricing.</div>
+                    <h4 style="color: var(--text-muted); margin-bottom: 1rem;">Pre-baked Samples</h4>
+                    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; margin-bottom: 1.5rem;">
+                        <div style="background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 12px; aspect-ratio: 3/2; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 1rem; text-align: center; transition: all 0.3s ease;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">
+                            <div style="font-size: 1.75rem; margin-bottom: 0.5rem;">💼</div>
+                            <div style="font-weight: 600; font-size: 0.8rem;">LinkedIn</div>
+                            <div style="font-size: 0.7rem; color: var(--text-muted); margin-top: 0.25rem;">1536×1024</div>
                         </div>
-
-                        <div class="skill-card ready">
-                            <div class="skill-header">
-                                <span class="skill-name">📧 enrich</span>
-                                <span class="skill-status ready">✅ Ready</span>
-                            </div>
-                            <div class="skill-desc">FullEnrich integration. 39.8% hit rate. 349.5 credits remaining. Falls back to Lemlist bulk enrich API.</div>
+                        <div style="background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 12px; aspect-ratio: 3/2; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 1rem; text-align: center; transition: all 0.3s ease;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">
+                            <div style="font-size: 1.75rem; margin-bottom: 0.5rem;">📸</div>
+                            <div style="font-weight: 600; font-size: 0.8rem;">Instagram</div>
+                            <div style="font-size: 0.7rem; color: var(--text-muted); margin-top: 0.25rem;">1024×1024</div>
                         </div>
-
-                        <div class="skill-card ready">
-                            <div class="skill-header">
-                                <span class="skill-name">💾 add-to-crm</span>
-                                <span class="skill-status ready">✅ Ready</span>
-                            </div>
-                            <div class="skill-desc">Attio API configured. 133 leads imported to "💰 Skool Money" list. Syncs member count, LTV, stage.</div>
+                        <div style="background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 12px; aspect-ratio: 3/2; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 1rem; text-align: center; transition: all 0.3s ease;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">
+                            <div style="font-size: 1.75rem; margin-bottom: 0.5rem;">𝕏</div>
+                            <div style="font-weight: 600; font-size: 0.8rem;">X / Twitter</div>
+                            <div style="font-size: 0.7rem; color: var(--text-muted); margin-top: 0.25rem;">1536×1024</div>
                         </div>
                     </div>
+
+                    <div class="framework-box">
+                        <h4>Why gpt-image-1</h4>
+                        <ul class="framework-list">
+                            <li><strong>Renders text accurately</strong> — headlines, taglines, no garbled letters</li>
+                            <li><strong>Follows brand prompts</strong> — color palette, layout, style stays consistent</li>
+                            <li><strong>One-shot quality</strong> — usable on first generation, no 20-prompt cycles</li>
+                        </ul>
+                    </div>
                 </div>
+
                 <div>
-                    <div class="terminal">
+                    <h4 style="color: var(--text-muted); margin-bottom: 1rem;">How your agent calls it</h4>
+                    <div class="code-block" style="margin-top: 0;">
+<pre><span class="code-keyword">await</span> <span class="code-function">image.create</span>({
+  <span class="code-keyword">prompt</span>: <span class="code-string">"LinkedIn carousel cover —
+    dark charcoal bg, orange accent,
+    bold white headline: '5 questions
+    every founder asks ChatGPT'.
+    Premium editorial layout."</span>,
+  <span class="code-keyword">model</span>: <span class="code-string">"gpt-image-1"</span>,
+  <span class="code-keyword">size</span>: <span class="code-string">"1536x1024"</span>,
+  <span class="code-keyword">quality</span>: <span class="code-string">"high"</span>
+});
+<span class="code-comment">// → saved to your workspace,
+// → ready to post.</span></pre>
+                    </div>
+
+                    <div class="terminal" style="margin-top: 1.5rem;">
                         <div class="terminal-header">
                             <span class="terminal-dot red"></span>
                             <span class="terminal-dot yellow"></span>
                             <span class="terminal-dot green"></span>
                         </div>
                         <div class="terminal-body">
-                            <div class="terminal-line"><span class="terminal-prompt">$</span> scrape skool "money" --pages 5</div>
-                            <div class="terminal-line terminal-output">🔍 Scraping Skool communities...</div>
-                            <div class="terminal-line terminal-output">📊 Found 357 communities</div>
-                            <div class="terminal-line terminal-output">💾 Saved to leads.csv</div>
-                            <div class="terminal-line"><span class="terminal-prompt">$</span> enrich leads.csv --fullenrich</div>
-                            <div class="terminal-line terminal-output">📧 Enriching 357 leads...</div>
-                            <div class="terminal-line terminal-output">✅ Found 142 emails (39.8%)</div>
-                            <div class="terminal-line"><span class="terminal-prompt">$</span> attio import enriched.csv</div>
-                            <div class="terminal-line terminal-output">✅ 133 leads added to Attio</div>
+                            <div class="terminal-line"><span class="terminal-prompt">you:</span> "make me a banner for tonight's post"</div>
+                            <div class="terminal-line terminal-output">🎨 generating gpt-image-1 (1536×1024)...</div>
+                            <div class="terminal-line terminal-output">✅ saved → banner-2026-06-04.png</div>
+                            <div class="terminal-line"><span class="terminal-prompt">you:</span> "make the orange brighter"</div>
+                            <div class="terminal-line terminal-output">🎨 regenerating with edit...</div>
+                            <div class="terminal-line terminal-output">✅ v2 ready</div>
+                            <div class="terminal-line"><span class="terminal-prompt">you:</span> "ship it"</div>
                         </div>
                     </div>
-
-                    <table class="metric-table" style="margin-top: 1.5rem;">
-                        <thead>
-                            <tr>
-                                <th>Metric</th>
-                                <th>Value</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Total Scraped</td>
-                                <td>357 leads</td>
-                            </tr>
-                            <tr>
-                                <td>Emails Found</td>
-                                <td>142 (39.8%)</td>
-                            </tr>
-                            <tr>
-                                <td>FullEnrich Credits</td>
-                                <td>349.5 remaining</td>
-                            </tr>
-                            <tr>
-                                <td>CRM Imported</td>
-                                <td>133 leads</td>
-                            </tr>
-                        </tbody>
-                    </table>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Slide 5: Outreach Skills -->
-    <section class="slide" id="slide-5">
+    <!-- Slide 3: Content Management -->
+    <section class="slide" id="slide-3">
+        <div class="glow" style="bottom: 20%; left: 15%;"></div>
         <div class="slide-content">
-            <span class="eyebrow">Phase 2</span>
-            <h2>Personalized <span class="highlight">Outreach</span></h2>
-            <p class="subtitle">Skills that research, write, and send.</p>
-            
+            <span class="eyebrow">Use Case 02</span>
+            <h2>From idea to published,<br>in <span class="highlight">one prompt</span>.</h2>
+            <p class="subtitle">A whole social brand — image, caption, scheduling — without leaving the agent.</p>
+
+            <div class="integration-flow" style="margin: 2rem 0 2.5rem;">
+                <div class="integration-node">💡 Topic</div>
+                <span class="integration-arrow">→</span>
+                <div class="integration-node highlight">social skill</div>
+                <span class="integration-arrow">→</span>
+                <div class="integration-node highlight">image gen</div>
+                <span class="integration-arrow">→</span>
+                <div class="integration-node highlight">social-publisher</div>
+                <span class="integration-arrow">→</span>
+                <div class="integration-node">📤 Live</div>
+            </div>
+
             <div class="two-col">
                 <div>
-                    <div class="skill-section">
-                        <div class="skill-card partial">
-                            <div class="skill-header">
-                                <span class="skill-name">🔬 research</span>
-                                <span class="skill-status partial">🔶 Partial</span>
-                            </div>
-                            <div class="skill-desc">SKILL.md done. Deep research via Tavily + YouTube scraping. Needs integration testing with n8n webhook for batch processing.</div>
-                        </div>
+                    <h4 style="color: var(--text-muted); margin-bottom: 1rem;">Two skills, working together</h4>
 
-                        <div class="skill-card ready">
-                            <div class="skill-header">
-                                <span class="skill-name">✍️ cold-email</span>
-                                <span class="skill-status ready">✅ Ready</span>
-                            </div>
-                            <div class="skill-desc">Copy frameworks from Lemlist & Instantly. 50-75 word templates. A/B structure built-in. Pattern-interrupt openers.</div>
-                        </div>
-
-                        <div class="skill-card partial">
-                            <div class="skill-header">
-                                <span class="skill-name">🚀 send (Lemlist)</span>
-                                <span class="skill-status partial">🔶 Partial</span>
-                            </div>
-                            <div class="skill-desc">API docs integrated. Campaign creation, lead upload, sequence steps. Needs live campaign test.</div>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <h4 style="color: var(--text-muted); margin-bottom: 0.5rem;">Research → Write Flow</h4>
-                    <div class="integration-flow" style="margin: 1rem 0; justify-content: flex-start;">
-                        <div class="integration-node">Lead</div>
-                        <span class="integration-arrow">→</span>
-                        <div class="integration-node highlight">Research Skill</div>
-                        <span class="integration-arrow">→</span>
-                        <div class="integration-node">Briefing</div>
-                        <span class="integration-arrow">→</span>
-                        <div class="integration-node highlight">Cold Email Skill</div>
-                        <span class="integration-arrow">→</span>
-                        <div class="integration-node">Copy</div>
-                    </div>
-
-                    <div class="framework-box">
-                        <h4>Cold Email Frameworks</h4>
-                        <ul class="framework-list">
-                            <li><strong>PAS</strong> — Problem → Agitate → Solution</li>
-                            <li><strong>QVC</strong> — Question → Value → CTA</li>
-                            <li><strong>BAB</strong> — Before → After → Bridge</li>
-                            <li><strong>AIDA</strong> — Attention → Interest → Desire → Action</li>
-                        </ul>
-                    </div>
-
-                    <div style="margin-top: 1rem; padding: 1rem; background: var(--bg-secondary); border-radius: 8px; font-size: 0.85rem;">
-                        <strong style="color: var(--accent);">Rule:</strong> 75 words max. Every word earns its place.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Slide 6: The Tool Stack -->
-    <section class="slide" id="slide-6">
-        <div class="slide-content">
-            <span class="eyebrow">The Stack</span>
-            <h2>Tools that <span class="highlight">power</span> the pipeline</h2>
-            <p class="subtitle">APIs and integrations orchestrated by Agentic Beaver.</p>
-            
-            <div class="tool-grid">
-                <div class="tool-card">
-                    <div class="tool-logo">🎯</div>
-                    <div class="tool-name">Attio</div>
-                    <div class="tool-type">CRM</div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-logo">📧</div>
-                    <div class="tool-name">Lemlist</div>
-                    <div class="tool-type">Email Sequences</div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-logo">🔍</div>
-                    <div class="tool-name">FullEnrich</div>
-                    <div class="tool-type">Email Finding</div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-logo">🧱</div>
-                    <div class="tool-name">Clay</div>
-                    <div class="tool-type">Data Enrichment</div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-logo">🌐</div>
-                    <div class="tool-name">Tavily</div>
-                    <div class="tool-type">Web Research</div>
-                </div>
-                <div class="tool-card">
-                    <div class="tool-logo">⚡</div>
-                    <div class="tool-name">n8n</div>
-                    <div class="tool-type">Workflow Automation</div>
-                </div>
-            </div>
-
-            <div class="two-col" style="margin-top: 3rem;">
-                <div>
-                    <h3>Data Flow</h3>
-                    <div class="code-block">
-                        <pre><span class="code-comment"># Lead Gen</span>
-<span class="code-function">Skool</span> → scrape → <span class="code-variable">leads.csv</span>
-<span class="code-variable">leads.csv</span> → <span class="code-function">FullEnrich</span> → emails
-emails → <span class="code-function">Attio</span> → CRM
-
-<span class="code-comment"># Outreach</span>
-lead → <span class="code-function">Tavily</span> + <span class="code-function">YouTube</span> → briefing
-briefing → <span class="code-function">cold-email</span> → copy
-copy → <span class="code-function">Lemlist</span> → send</pre>
-                    </div>
-                </div>
-                <div>
-                    <h3>n8n Workflows</h3>
-                    <div class="skill-card ready" style="margin-top: 1rem;">
-                        <div class="skill-header">
-                            <span class="skill-name">Cold Outreach Stuff</span>
-                        </div>
-                        <div class="skill-desc">Main workflow: form trigger → process leads → emails → report</div>
-                    </div>
                     <div class="skill-card ready">
                         <div class="skill-header">
-                            <span class="skill-name">Scrape His Socials</span>
+                            <span class="skill-name">✍️ social</span>
+                            <span class="skill-status ready">Writes</span>
                         </div>
-                        <div class="skill-desc">Sub-workflow: Apify YouTube scraping for transcripts</div>
+                        <div class="skill-desc">Drafts platform-tailored copy. LinkedIn long-form, X threads, IG captions, FB posts. Hook-driven, on-brand, no fluff. <em>(coreyhaines31/marketingskills)</em></div>
+                    </div>
+
+                    <div class="skill-card ready">
+                        <div class="skill-header">
+                            <span class="skill-name">📤 social-publisher</span>
+                            <span class="skill-status ready">Ships</span>
+                        </div>
+                        <div class="skill-desc">Cross-platform publisher. LinkedIn, X, IG, FB, TikTok — one call, schedules or sends now. <em>(claude-office-skills/skills)</em></div>
+                    </div>
+
+                    <div style="margin-top: 1.5rem; padding: 1rem; background: var(--bg-secondary); border-radius: 8px; border-left: 3px solid var(--accent); font-size: 0.9rem;">
+                        <strong style="color: var(--accent);">Install once:</strong>
+                        <div class="code-block" style="margin-top: 0.5rem; padding: 0.75rem; font-size: 0.75rem;"><pre>npx skills add coreyhaines31/marketingskills --skill social
+npx skills add claude-office-skills/skills --skill social-publisher</pre></div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Slide 7: Research Skill Deep Dive -->
-    <section class="slide" id="slide-7">
-        <div class="slide-content">
-            <span class="eyebrow">Deep Dive</span>
-            <h2>The <span class="highlight">Research</span> Skill</h2>
-            <p class="subtitle">Replaces manual Gemini sessions. Produces strategic briefings with actionable hooks.</p>
-            
-            <div class="two-col">
                 <div>
-                    <h4 style="color: var(--text-muted); margin-bottom: 1rem;">Input</h4>
-                    <div class="code-block" style="margin-top: 0;">
-                        <pre><span class="code-keyword">lead_name:</span> <span class="code-string">"Alex Hormozi"</span>
-<span class="code-keyword">company:</span> <span class="code-string">"Acquisition.com"</span>
-<span class="code-keyword">youtube_url:</span> <span class="code-string">"@AlexHormozi"</span>
-<span class="code-keyword">context:</span> <span class="code-string">"AI retention for course creators"</span></pre>
-                    </div>
-                    
-                    <h4 style="color: var(--text-muted); margin: 1.5rem 0 0.5rem;">Process</h4>
-                    <ul style="list-style: none; font-size: 0.9rem;">
-                        <li style="padding: 0.4rem 0; color: var(--text-secondary);">✓ <strong>Tavily search:</strong> background, news, interviews</li>
-                        <li style="padding: 0.4rem 0; color: var(--text-secondary);">✓ <strong>YouTube scrape:</strong> recent videos + transcripts (Apify)</li>
-                        <li style="padding: 0.4rem 0; color: var(--text-secondary);">✓ <strong>Content analysis:</strong> values, philosophy, communication style</li>
-                        <li style="padding: 0.4rem 0; color: var(--text-secondary);">✓ <strong>Hook generation:</strong> 3+ actionable openers</li>
-                    </ul>
-
-                    <div style="margin-top: 1.5rem; padding: 1rem; background: var(--bg-secondary); border-radius: 8px; border-left: 3px solid var(--accent);">
-                        <strong style="font-size: 0.85rem;">API: Tavily</strong>
-                        <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.25rem;">search_depth: "advanced" | include_answer: true</p>
-                    </div>
-                </div>
-                <div>
-                    <h4 style="color: var(--text-muted); margin-bottom: 1rem;">Output: Strategic Briefing</h4>
-                    <div class="code-block" style="font-size: 0.75rem; margin-top: 0;">
-                        <pre><span class="code-comment"># Alex Hormozi — Account Briefing</span>
-
-<span class="code-keyword">## Philosophy</span>
-"Give away the secrets, sell the implementation"
-Anti-guru, proof-focused, aggressive transparency
-
-<span class="code-keyword">## Top Hooks</span>
-1. Reference <span class="code-string">"$100M Offers"</span> framework
-2. Lead with numbers (he respects data)
-3. Connect to <span class="code-string">"volume negates luck"</span>
-
-<span class="code-keyword">## Don't Say</span>
-- Fluffy language, vague promises
-- "Just wanted to reach out"
-- Generic AI buzzwords
-
-<span class="code-keyword">## Quote to Use</span>
-<span class="code-string">"Most people need to hear you're not 
-working hard enough"</span>
-
-<span class="code-keyword">## Suggested Opener</span>
-<span class="code-string">"Your breakdown on retention curves — 
-most programs we see: 15% finish rate..."</span></pre>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Slide 8: Cold Email Skill Deep Dive -->
-    <section class="slide" id="slide-8">
-        <div class="slide-content">
-            <span class="eyebrow">Deep Dive</span>
-            <h2>The <span class="highlight">Cold Email</span> Skill</h2>
-            <p class="subtitle">Inspired by Lemlist & Instantly. Short, punchy, personalized.</p>
-            
-            <div class="two-col">
-                <div>
-                    <h4 style="color: var(--text-muted); margin-bottom: 1rem;">Core Rules</h4>
-                    <div class="framework-box" style="margin-top: 0;">
-                        <ul class="framework-list">
-                            <li><strong>75 words max</strong> — Every word earns its place</li>
-                            <li><strong>No generic openers</strong> — Skip "Hey, reaching out..."</li>
-                            <li><strong>Specific > vague</strong> — "267k members = ~$80K" beats "$50K-$300K"</li>
-                            <li><strong>One clear CTA</strong> — "Want me to show you?"</li>
-                            <li><strong>Pattern interrupt</strong> — First line stops the scroll</li>
-                        </ul>
-                    </div>
-
-                    <h4 style="color: var(--text-muted); margin: 1.5rem 0 0.5rem;">5-Email Sequence</h4>
-                    <table class="metric-table" style="margin-top: 0;">
-                        <thead>
-                            <tr>
-                                <th>Email</th>
-                                <th>Day</th>
-                                <th>Purpose</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr><td>1</td><td>0</td><td>Hook + Problem</td></tr>
-                            <tr><td>2</td><td>3</td><td>Value + Proof</td></tr>
-                            <tr><td>3</td><td>7</td><td>Social Proof</td></tr>
-                            <tr><td>4</td><td>10</td><td>Risk/FOMO</td></tr>
-                            <tr><td>5</td><td>14</td><td>Hail Mary</td></tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div>
-                    <h4 style="color: var(--text-muted); margin-bottom: 1rem;">Example Output</h4>
-                    <div class="email-preview">
-                        <div class="email-header">
-                            <div class="email-field">
-                                <span class="email-label">To:</span>
-                                <span>alex@acquisition.com</span>
-                            </div>
-                            <div class="email-field">
-                                <span class="email-label">Subject:</span>
-                                <span><span class="personalized">Alex</span> — quick question about <span class="personalized">Gym Launch</span></span>
+                    <h4 style="color: var(--text-muted); margin-bottom: 1rem;">The full workflow</h4>
+                    <div class="workflow-diagram" style="margin: 0;">
+                        <div class="workflow-step-box">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <strong>You give a topic</strong>
+                                <span>"new feature dropped, post about it on LinkedIn + X + IG"</span>
                             </div>
                         </div>
-                        <div class="email-body">
-                            <span class="personalized">Alex</span> — watched your breakdown on retention curves.<br><br>
-                            
-                            Most programs we see: <strong>15% finish rate</strong>. The rest ghost after week 2.<br><br>
-                            
-                            With <span class="personalized">267k members</span>, that's roughly <strong>$80K</strong> sitting on the table.<br><br>
-                            
-                            We built something that changes that. No fluff — just AI that keeps people engaged 24/7.<br><br>
-                            
-                            Worth a 10-min call to see if it fits?
+                        <div class="workflow-arrow">↓</div>
+                        <div class="workflow-step-box">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <strong>social skill drafts copy</strong>
+                                <span>One version per platform, tone-matched to each</span>
+                            </div>
+                        </div>
+                        <div class="workflow-arrow">↓</div>
+                        <div class="workflow-step-box">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <strong>image gen produces visual</strong>
+                                <span>Right aspect ratio per platform — square, wide, vertical</span>
+                            </div>
+                        </div>
+                        <div class="workflow-arrow">↓</div>
+                        <div class="workflow-step-box">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <strong>social-publisher ships it</strong>
+                                <span>Schedules or posts now to every connected account</span>
+                            </div>
                         </div>
                     </div>
-                    <div style="margin-top: 1rem; font-size: 0.8rem; color: var(--text-muted); text-align: right;">
-                        Word count: 67 ✓
+
+                    <div style="margin-top: 1.5rem; padding: 1rem; background: linear-gradient(135deg, rgba(244, 107, 67, 0.1), transparent); border: 1px solid var(--accent); border-radius: 12px; font-size: 0.9rem;">
+                        <strong style="color: var(--accent);">The point:</strong> a whole social brand runs from the same chat window. Image, caption, posting — agent does all of it.
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Slide 9: Lemlist Integration -->
-    <section class="slide" id="slide-9">
+    <!-- Slide 4: What's New in Agentic Beaver -->
+    <section class="slide" id="slide-4">
+        <div class="glow" style="top: 15%; right: 10%;"></div>
         <div class="slide-content">
-            <span class="eyebrow">Integration</span>
-            <h2><span class="highlight">Lemlist</span> API</h2>
-            <p class="subtitle">Campaign creation, lead upload, sequence automation.</p>
-            
-            <div class="two-col">
-                <div>
-                    <h4 style="color: var(--text-muted); margin-bottom: 1rem;">Key Endpoints</h4>
-                    <div class="code-block" style="margin-top: 0; font-size: 0.8rem;">
-                        <pre><span class="code-comment"># Base: https://api.lemlist.com/api</span>
-<span class="code-comment"># Auth: Basic (empty user, API key as pass)</span>
+            <span class="eyebrow">Platform Updates</span>
+            <h2>What shipped <span class="highlight">in May</span>.</h2>
+            <p class="subtitle">Twelve features. One big rebuild. Here's what changed since we last talked.</p>
 
-<span class="code-keyword">GET</span>  /campaigns          <span class="code-comment"># List all</span>
-<span class="code-keyword">POST</span> /campaigns          <span class="code-comment"># Create new</span>
-<span class="code-keyword">POST</span> /campaigns/{id}/leads   <span class="code-comment"># Add lead</span>
-<span class="code-keyword">POST</span> /campaigns/{id}/start   <span class="code-comment"># Launch</span>
-<span class="code-keyword">POST</span> /enrich             <span class="code-comment"># Find email</span>
-<span class="code-keyword">POST</span> /enrich/bulk        <span class="code-comment"># Batch (500 max)</span></pre>
-                    </div>
-
-                    <h4 style="color: var(--text-muted); margin: 1.5rem 0 0.5rem;">Variables Available</h4>
-                    <div class="code-block" style="margin-top: 0; font-size: 0.8rem;">
-                        <pre><span class="code-comment"># Standard</span>
-{{firstName}} {{lastName}} {{email}}
-{{companyName}} {{phone}} {{linkedinUrl}}
-
-<span class="code-comment"># Custom (from lead data)</span>
-{{communityName}} {{memberCount}}
-{{calculatedLTV}} {{completionRate}}</pre>
-                    </div>
+            <div class="features-grid" style="margin-top: 2rem;">
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3>Claude Max install</h3>
+                    <p>One-click orchestrator for Claude Max as a model provider. SSE-streamed setup flow with session store + stage runner. No CLI gymnastics.</p>
                 </div>
-                <div>
-                    <h4 style="color: var(--text-muted); margin-bottom: 1rem;">Campaign Creation Flow</h4>
-                    <div class="terminal" style="margin-top: 0;">
-                        <div class="terminal-header">
-                            <span class="terminal-dot red"></span>
-                            <span class="terminal-dot yellow"></span>
-                            <span class="terminal-dot green"></span>
-                        </div>
-                        <div class="terminal-body" style="font-size: 0.75rem;">
-                            <div class="terminal-line"><span class="terminal-prompt">1.</span> Create campaign</div>
-                            <div class="terminal-line terminal-output">POST /campaigns {"name": "Skool AI Q2"}</div>
-                            <div class="terminal-line"><span class="terminal-prompt">2.</span> Add email sequence</div>
-                            <div class="terminal-line terminal-output">POST /campaigns/{id}/sequences</div>
-                            <div class="terminal-line"><span class="terminal-prompt">3.</span> Upload leads</div>
-                            <div class="terminal-line terminal-output">POST /campaigns/{id}/leads (batch)</div>
-                            <div class="terminal-line"><span class="terminal-prompt">4.</span> Start campaign</div>
-                            <div class="terminal-line terminal-output">POST /campaigns/{id}/start ✅</div>
-                        </div>
-                    </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚙️</div>
+                    <h3>Model providers, redesigned</h3>
+                    <p>New providers page with Claude Max form, Google built-in, and a manage menu. Add, configure, swap — all from the dashboard.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">❤️</div>
+                    <h3>Health dashboard</h3>
+                    <p>Full redesign: VPS cards, live actions, update dialogs, status chips. Know what your agent is doing without SSH-ing into anything.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔌</div>
+                    <h3>Channels: disconnect & manage</h3>
+                    <p>Disconnect, enable, disable any channel from a single menu. No more orphaned integrations sitting in the dark.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💳</div>
+                    <h3>Prorated agent seats</h3>
+                    <p>AddAgentSeatDialog now shows the daily prorated breakdown. Add a seat mid-cycle, see exactly what you'll be charged.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧩</div>
+                    <h3>Google brain wiring</h3>
+                    <p>Pick Google as your brain during onboarding. BrainCredentials flow handles the OAuth + provisioning end-to-end.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🖥️</div>
+                    <h3>Terminal, hardened</h3>
+                    <p>Graceful broker shutdown + UX error mapping. Terminal sessions no longer die mysteriously when the backend hiccups.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3>UI primitives polished</h3>
+                    <p>Badge, button, command, dialog, navigation, overlay shell, toggle — all updated. The little things you feel but can't name.</p>
+                </div>
+            </div>
 
-                    <div style="margin-top: 1rem; padding: 1rem; background: var(--bg-secondary); border-radius: 8px; font-size: 0.85rem;">
-                        <strong style="color: var(--yellow);">⚠️ Rate Limit:</strong> 10 requests/second per team
-                    </div>
+            <div class="stats-grid" style="margin-top: 2.5rem;">
+                <div class="stat-card">
+                    <div class="stat-value">12+</div>
+                    <div class="stat-label">Features Shipped</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">May</div>
+                    <div class="stat-label">Single Sprint</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">2</div>
+                    <div class="stat-label">Full Redesigns</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">1</div>
+                    <div class="stat-label">Claude Max Install Flow</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Slide 10: Full Architecture -->
-    <section class="slide" id="slide-10">
-        <div class="slide-content">
-            <span class="eyebrow">Architecture</span>
-            <h2>How it all <span class="highlight">connects</span></h2>
-            <p class="subtitle">Agentic Beaver orchestrates skills, tools, and workflows.</p>
-            
-            <div class="integration-flow" style="margin: 2rem 0;">
-                <div class="integration-node">Skool</div>
-                <span class="integration-arrow">→</span>
-                <div class="integration-node highlight">Agentic Beaver</div>
-                <span class="integration-arrow">→</span>
-                <div class="integration-node">FullEnrich</div>
-                <span class="integration-arrow">→</span>
-                <div class="integration-node">Attio</div>
-                <span class="integration-arrow">→</span>
-                <div class="integration-node highlight">Agentic Beaver</div>
-                <span class="integration-arrow">→</span>
-                <div class="integration-node">Lemlist</div>
-            </div>
-
-            <div class="two-col">
-                <div>
-                    <h4 style="color: var(--text-muted); margin-bottom: 1rem;">Workspace Structure</h4>
-                    <div class="code-block" style="margin-top: 0; font-size: 0.8rem;">
-                        <pre><span class="code-keyword">workspace/</span>
-├── <span class="code-variable">AGENTS.md</span>      <span class="code-comment"># Agent instructions</span>
-├── <span class="code-variable">MEMORY.md</span>      <span class="code-comment"># Pipeline state</span>
-│
-├── <span class="code-keyword">skills/</span>
-│   ├── <span class="code-function">cold-email/</span>
-│   │   ├── SKILL.md
-│   │   └── references/
-│   │       ├── frameworks.md
-│   │       └── examples.md
-│   ├── <span class="code-function">research/</span>
-│   │   └── SKILL.md
-│   └── <span class="code-function">outbound-sales/</span>
-│       └── SKILL.md
-│
-├── <span class="code-keyword">configs/</span>
-│   ├── .attio-config.json
-│   ├── .lemlist-config.json
-│   ├── .fullenrich-config.json
-│   └── .tavily-config.json
-│
-└── <span class="code-keyword">memory/</span>
-    └── lead-gen-workflow-session.md</pre>
-                    </div>
-                </div>
-                <div>
-                    <h4 style="color: var(--text-muted); margin-bottom: 1rem;">Key Benefits</h4>
-                    <div class="features-grid" style="grid-template-columns: 1fr; margin-top: 0; gap: 1rem;">
-                        <div class="feature-card" style="padding: 1rem;">
-                            <h4 style="margin-bottom: 0.25rem;">🧠 Persistent Memory</h4>
-                            <p style="font-size: 0.85rem;">Agent remembers campaign state, lead status, what's been sent.</p>
-                        </div>
-                        <div class="feature-card" style="padding: 1rem;">
-                            <h4 style="margin-bottom: 0.25rem;">🔌 Hot-Swappable Skills</h4>
-                            <p style="font-size: 0.85rem;">Drop a SKILL.md, agent learns new capabilities instantly.</p>
-                        </div>
-                        <div class="feature-card" style="padding: 1rem;">
-                            <h4 style="margin-bottom: 0.25rem;">⚡ Model Routing</h4>
-                            <p style="font-size: 0.85rem;">Opus for research, Sonnet for writing, Haiku for simple ops.</p>
-                        </div>
-                        <div class="feature-card" style="padding: 1rem;">
-                            <h4 style="margin-bottom: 0.25rem;">📱 Multi-Channel</h4>
-                            <p style="font-size: 0.85rem;">Command via Discord, Slack, Telegram — wherever you are.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Slide 11: Live Demo -->
-    <section class="slide" id="slide-11">
-        <div class="slide-content" style="text-align: center;">
-            <span class="eyebrow">Live Demo</span>
-            <h2>Let's see it <span class="highlight">work</span></h2>
-            <p class="subtitle">Click any workflow to see how it works. Then watch the live demo.</p>
-            
-            <div class="demo-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; max-width: 1000px; margin: 3rem auto;">
-                <div class="demo-card" onclick="openModal('research')">
-                    <div class="demo-icon">🔍</div>
-                    <div class="demo-label">Research a Lead</div>
-                    <div class="demo-hint">Click to see workflow →</div>
-                </div>
-                <div class="demo-card" onclick="openModal('email')">
-                    <div class="demo-icon">✍️</div>
-                    <div class="demo-label">Write Cold Email</div>
-                    <div class="demo-hint">Click to see workflow →</div>
-                </div>
-                <div class="demo-card" onclick="openModal('crm')">
-                    <div class="demo-icon">📊</div>
-                    <div class="demo-label">CRM Integration</div>
-                    <div class="demo-hint">Click to see workflow →</div>
-                </div>
-                <div class="demo-card" onclick="openModal('pipeline')">
-                    <div class="demo-icon">🚀</div>
-                    <div class="demo-label">Full Pipeline</div>
-                    <div class="demo-hint">Click to see workflow →</div>
-                </div>
-                <div class="demo-card" onclick="openModal('scrape')">
-                    <div class="demo-icon">🕷️</div>
-                    <div class="demo-label">Scrape Leads</div>
-                    <div class="demo-hint">Click to see workflow →</div>
-                </div>
-            </div>
-            
-
-        </div>
-    </section>
-
-    <!-- Modal Overlays -->
-    <div class="modal-overlay" id="modal-research" onclick="closeModal('research')">
-        <div class="modal-content" onclick="event.stopPropagation()">
-            <button class="modal-close" onclick="closeModal('research')">×</button>
-            <h3>🔍 Research a Lead</h3>
-            <p class="modal-subtitle">Deep research workflow for hyper-personalized outreach</p>
-            <div class="workflow-diagram">
-                <div class="workflow-node start">📥 Lead Input</div>
-                <div class="workflow-arrow">↓</div>
-                <div class="workflow-step-box">
-                    <div class="step-number">1</div>
-                    <div class="step-content">
-                        <strong>Web Search (Tavily)</strong>
-                        <span>Search "{name} {company}" for background, news, interviews</span>
-                    </div>
-                </div>
-                <div class="workflow-arrow">↓</div>
-                <div class="workflow-step-box">
-                    <div class="step-number">2</div>
-                    <div class="step-content">
-                        <strong>YouTube Scrape (Apify)</strong>
-                        <span>Pull recent videos + transcripts from their channel</span>
-                    </div>
-                </div>
-                <div class="workflow-arrow">↓</div>
-                <div class="workflow-step-box">
-                    <div class="step-number">3</div>
-                    <div class="step-content">
-                        <strong>Content Analysis (Claude)</strong>
-                        <span>Extract values, philosophy, communication style, quotes</span>
-                    </div>
-                </div>
-                <div class="workflow-arrow">↓</div>
-                <div class="workflow-step-box">
-                    <div class="step-number">4</div>
-                    <div class="step-content">
-                        <strong>Hook Generation</strong>
-                        <span>Create 3+ personalized opener hooks with anti-patterns</span>
-                    </div>
-                </div>
-                <div class="workflow-arrow">↓</div>
-                <div class="workflow-node end">📄 Strategic Briefing</div>
-            </div>
-            <div class="modal-tools">
-                <span class="tool-tag">Tavily API</span>
-                <span class="tool-tag">Apify</span>
-                <span class="tool-tag">Claude</span>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal-overlay" id="modal-email" onclick="closeModal('email')">
-        <div class="modal-content" onclick="event.stopPropagation()">
-            <button class="modal-close" onclick="closeModal('email')">×</button>
-            <h3>✍️ Write Cold Email</h3>
-            <p class="modal-subtitle">Personalized cold copy in 75 words or less</p>
-            <div class="workflow-diagram">
-                <div class="workflow-node start">📄 Research Briefing</div>
-                <div class="workflow-arrow">↓</div>
-                <div class="workflow-step-box">
-                    <div class="step-number">1</div>
-                    <div class="step-content">
-                        <strong>Extract Hooks</strong>
-                        <span>Pull top 3 hooks and personalization points from briefing</span>
-                    </div>
-                </div>
-                <div class="workflow-arrow">↓</div>
-                <div class="workflow-step-box">
-                    <div class="step-number">2</div>
-                    <div class="step-content">
-                        <strong>Select Framework</strong>
-                        <span>PAS, QVC, BAB, or AIDA based on lead profile</span>
-                    </div>
-                </div>
-                <div class="workflow-arrow">↓</div>
-                <div class="workflow-step-box">
-                    <div class="step-number">3</div>
-                    <div class="step-content">
-                        <strong>Generate Copy</strong>
-                        <span>Write email with pattern-interrupt opener, specific value prop</span>
-                    </div>
-                </div>
-                <div class="workflow-arrow">↓</div>
-                <div class="workflow-step-box">
-                    <div class="step-number">4</div>
-                    <div class="step-content">
-                        <strong>Validate & Trim</strong>
-                        <span>Enforce 75 word max, single CTA, no fluff</span>
-                    </div>
-                </div>
-                <div class="workflow-arrow">↓</div>
-                <div class="workflow-node end">📧 Ready-to-Send Email</div>
-            </div>
-            <div class="modal-tools">
-                <span class="tool-tag">Claude</span>
-                <span class="tool-tag">Lemlist Variables</span>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal-overlay" id="modal-crm" onclick="closeModal('crm')">
-        <div class="modal-content" onclick="event.stopPropagation()">
-            <button class="modal-close" onclick="closeModal('crm')">×</button>
-            <h3>📊 CRM Integration</h3>
-            <p class="modal-subtitle">Sync enriched leads to Attio with full context</p>
-            <div class="workflow-diagram">
-                <div class="workflow-node start">📋 Enriched Lead Data</div>
-                <div class="workflow-arrow">↓</div>
-                <div class="workflow-step-box">
-                    <div class="step-number">1</div>
-                    <div class="step-content">
-                        <strong>Map Fields</strong>
-                        <span>Name, email, company, member count, LTV calculation</span>
-                    </div>
-                </div>
-                <div class="workflow-arrow">↓</div>
-                <div class="workflow-step-box">
-                    <div class="step-number">2</div>
-                    <div class="step-content">
-                        <strong>Check Duplicates</strong>
-                        <span>Query Attio for existing records by email</span>
-                    </div>
-                </div>
-                <div class="workflow-arrow">↓</div>
-                <div class="workflow-step-box">
-                    <div class="step-number">3</div>
-                    <div class="step-content">
-                        <strong>Create/Update Record</strong>
-                        <span>POST to Attio API with all lead attributes</span>
-                    </div>
-                </div>
-                <div class="workflow-arrow">↓</div>
-                <div class="workflow-step-box">
-                    <div class="step-number">4</div>
-                    <div class="step-content">
-                        <strong>Add to List</strong>
-                        <span>Assign to "💰 Skool Money" list with stage: Prospecting</span>
-                    </div>
-                </div>
-                <div class="workflow-arrow">↓</div>
-                <div class="workflow-node end">✅ Lead in CRM</div>
-            </div>
-            <div class="modal-tools">
-                <span class="tool-tag">Attio API</span>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal-overlay" id="modal-pipeline" onclick="closeModal('pipeline')">
-        <div class="modal-content wide" onclick="event.stopPropagation()">
-            <button class="modal-close" onclick="closeModal('pipeline')">×</button>
-            <h3>🚀 Full Pipeline</h3>
-            <p class="modal-subtitle">End-to-end: from raw lead to sent email</p>
-            <div class="workflow-diagram horizontal">
-                <div class="pipeline-stage">
-                    <div class="stage-header">SCRAPE</div>
-                    <div class="stage-steps">
-                        <div class="mini-step">Skool scraper</div>
-                        <div class="mini-step">Extract profiles</div>
-                        <div class="mini-step">Save to CSV</div>
-                    </div>
-                    <div class="stage-tool">Python + Skool API</div>
-                </div>
-                <div class="pipeline-arrow">→</div>
-                <div class="pipeline-stage">
-                    <div class="stage-header">ENRICH</div>
-                    <div class="stage-steps">
-                        <div class="mini-step">Upload to FullEnrich</div>
-                        <div class="mini-step">Find emails (40%)</div>
-                        <div class="mini-step">Export results</div>
-                    </div>
-                    <div class="stage-tool">FullEnrich API</div>
-                </div>
-                <div class="pipeline-arrow">→</div>
-                <div class="pipeline-stage">
-                    <div class="stage-header">CRM</div>
-                    <div class="stage-steps">
-                        <div class="mini-step">Map fields</div>
-                        <div class="mini-step">Create records</div>
-                        <div class="mini-step">Assign to list</div>
-                    </div>
-                    <div class="stage-tool">Attio API</div>
-                </div>
-                <div class="pipeline-arrow">→</div>
-                <div class="pipeline-stage">
-                    <div class="stage-header">RESEARCH</div>
-                    <div class="stage-steps">
-                        <div class="mini-step">Web search</div>
-                        <div class="mini-step">YouTube scrape</div>
-                        <div class="mini-step">Generate briefing</div>
-                    </div>
-                    <div class="stage-tool">Tavily + Apify</div>
-                </div>
-                <div class="pipeline-arrow">→</div>
-                <div class="pipeline-stage">
-                    <div class="stage-header">WRITE</div>
-                    <div class="stage-steps">
-                        <div class="mini-step">Extract hooks</div>
-                        <div class="mini-step">Apply framework</div>
-                        <div class="mini-step">75 word copy</div>
-                    </div>
-                    <div class="stage-tool">Claude + Skill</div>
-                </div>
-                <div class="pipeline-arrow">→</div>
-                <div class="pipeline-stage">
-                    <div class="stage-header">SEND</div>
-                    <div class="stage-steps">
-                        <div class="mini-step">Create campaign</div>
-                        <div class="mini-step">Add sequence</div>
-                        <div class="mini-step">Launch</div>
-                    </div>
-                    <div class="stage-tool">Lemlist API</div>
-                </div>
-            </div>
-            <div class="modal-tools">
-                <span class="tool-tag">Agentic Beaver</span>
-                <span class="tool-tag">n8n</span>
-                <span class="tool-tag">Full Automation</span>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal-overlay" id="modal-scrape" onclick="closeModal('scrape')">
-        <div class="modal-content" onclick="event.stopPropagation()">
-            <button class="modal-close" onclick="closeModal('scrape')">×</button>
-            <h3>🕷️ Scrape Leads</h3>
-            <p class="modal-subtitle">Extract community owners from Skool</p>
-            <div class="workflow-diagram">
-                <div class="workflow-node start">🎯 Target Niche (e.g. "Money")</div>
-                <div class="workflow-arrow">↓</div>
-                <div class="workflow-step-box">
-                    <div class="step-number">1</div>
-                    <div class="step-content">
-                        <strong>Search Skool</strong>
-                        <span>Query category, paginate through results (5+ pages)</span>
-                    </div>
-                </div>
-                <div class="workflow-arrow">↓</div>
-                <div class="workflow-step-box">
-                    <div class="step-number">2</div>
-                    <div class="step-content">
-                        <strong>Extract Profiles</strong>
-                        <span>Community name, owner name, member count, pricing</span>
-                    </div>
-                </div>
-                <div class="workflow-arrow">↓</div>
-                <div class="workflow-step-box">
-                    <div class="step-number">3</div>
-                    <div class="step-content">
-                        <strong>Calculate LTV</strong>
-                        <span>Members × Price × Retention = Opportunity value</span>
-                    </div>
-                </div>
-                <div class="workflow-arrow">↓</div>
-                <div class="workflow-step-box">
-                    <div class="step-number">4</div>
-                    <div class="step-content">
-                        <strong>Export CSV</strong>
-                        <span>Save structured data for enrichment pipeline</span>
-                    </div>
-                </div>
-                <div class="workflow-arrow">↓</div>
-                <div class="workflow-node end">📊 357 Leads Extracted</div>
-            </div>
-            <div class="modal-tools">
-                <span class="tool-tag">Python</span>
-                <span class="tool-tag">Skool Scraper</span>
-            </div>
-        </div>
-    </div>
-
-    <!-- Slide 12: Get Started -->
-    <section class="slide cta-slide" id="slide-12">
+    <!-- Slide 5: Try It Tonight (CTA) -->
+    <section class="slide cta-slide" id="slide-5">
         <div class="glow" style="bottom: 20%; right: 10%;"></div>
         <div class="slide-content">
             <img src="beaver-logo.png" alt="Agentic Beaver" style="width: 100px; height: 100px; border-radius: 20px; margin-bottom: 1.5rem;">
-            <span class="eyebrow">Ready?</span>
-            <h2>Build your own<br><span class="highlight">AI teammate</span></h2>
-            <p class="subtitle">Join our community and start building today.</p>
-            
-            <div class="hero-cta" style="margin-top: 3rem;">
-                <a href="https://www.skool.com/agenticai" target="_blank" class="btn btn-primary">Join Community →</a>
-                <a href="https://akera.club" target="_blank" class="btn btn-secondary">Learn More</a>
+            <span class="eyebrow">Now you</span>
+            <h2>Try it <span class="highlight">tonight</span>.</h2>
+            <p class="subtitle">Three steps. Less than ten minutes. A real working agent by the end of it.</p>
+
+            <div class="three-col" style="margin: 2.5rem 0; max-width: 1000px;">
+                <div class="feature-card" style="text-align: left;">
+                    <div class="feature-icon">1️⃣</div>
+                    <h3>Spin up an agent</h3>
+                    <p>Open your dashboard, pick a brain (Claude Max recommended), name it. Done.</p>
+                </div>
+                <div class="feature-card" style="text-align: left;">
+                    <div class="feature-icon">2️⃣</div>
+                    <h3>Install a skill</h3>
+                    <p><code style="background: var(--bg-tertiary); padding: 0.15rem 0.4rem; border-radius: 4px; font-size: 0.85rem;">npx skills add</code> — start with <strong>social</strong> + <strong>social-publisher</strong>.</p>
+                </div>
+                <div class="feature-card" style="text-align: left;">
+                    <div class="feature-icon">3️⃣</div>
+                    <h3>Make something</h3>
+                    <p>Pick a topic. Tell the agent. Image, caption, posted — across every platform.</p>
+                </div>
+            </div>
+
+            <div class="hero-cta" style="margin-top: 1rem;">
+                <a href="https://akera.club" target="_blank" class="btn btn-primary">Open Dashboard →</a>
+                <a href="https://github.com/Akera-Agency/agentic-beaver" target="_blank" class="btn btn-secondary">GitHub</a>
+            </div>
+
+            <div style="margin-top: 3rem; font-size: 0.85rem; color: var(--text-muted);">
+                Questions? Drop them in the beta channel. We're listening.
             </div>
         </div>
     </section>
